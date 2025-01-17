@@ -43,4 +43,8 @@ formula:
    Machine 2 : x1 + 2x2 < 80
    Non-negative : x1,x2 > 0  
 
-​
+PuLP provides a simple interface for defining linear programming problems.
+The LpProblem class represents the optimization problem.
+LpVariable defines decision variables with their bounds.
+Constraints and the objective function are added to the problem before solving.
+This approach is scalable to more complex problems, such as incorporating additional products, machines, or resource constraints.
